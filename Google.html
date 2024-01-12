@@ -477,6 +477,21 @@
                }
             })
          }
+					document.addEventListener('DOMContentLoaded',pageLoad)
+
+			/* ページをロードした時にテキストボックスにリスナを登録 */
+			function pageLoad(){
+				var textbox = document.getElementById('APjFqb');
+				textbox.addEventListener('keydown', enterKeyPress);
+			}
+
+			/* テキストボックスでEnterキーが押されたらコンソールに文字を表示 */
+			function enterKeyPress(event){
+				if(event.key === 'Enter'){
+					alert("お疲れ様です。全部筒抜けですよ。w")
+					console.log('Press your Enter key.')
+				}
+			}
       </script><script src="./Google_files/m=B2qlPe,DhPYme,EkevXb,GU4Gab,MpJwZc,NzU6V,UUJqVe,aa,abd,async,epYOx,ifl,ms4mZb,mu,pHXghd,q0xTif,s39S4,sOXFj,sb_wiz,sf,sonic,spch" nonce="" async="" gapi_processed="true"></script><script src="./Google_files/m=sy7e,syrn,syvc,syve,WlNQGd,sy2by,sy2we,nabPbb,syoy,syro,syvi,syvj,syvk,syvl,syvm,DPreE,sylh,syvb,syvd,CnSW2d,sysm,kQvlef,sy2bz,fXO0xe" nonce="" async=""></script><script src="./Google_files/m=syeo,syep,aLUfP" nonce="" async=""></script>
    </body>
 </html>
